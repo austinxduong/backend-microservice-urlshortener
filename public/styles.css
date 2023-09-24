@@ -15,9 +15,9 @@ h1 {
 }
 
 fieldset {
-    border-color: rgb(19, 81, 188);
+    border-color: rgba(1, 150, 78, 0.589);
     border-radius: 8px;
-    background-color: rgba(107, 235, 107, 0.314);
+    background-color: rgba(107, 235, 107, 0.185);
 }
 
 form {
@@ -34,4 +34,8 @@ label {
 input[type='text'] {
     width: 220px;
     text-align: center;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 255, 255);
 }
