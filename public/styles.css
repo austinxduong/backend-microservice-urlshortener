@@ -40,4 +40,5 @@ input[type="submit"] {
     background-color: rgb(255, 255, 255);
     color: black;
     font: "Arial";
+    border: 1px solid black;
 }
