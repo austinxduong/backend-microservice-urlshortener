@@ -15,7 +15,7 @@ h1 {
 }
 
 fieldset {
-    border-color: rgba(1, 150, 78, 0.589);
+    border-color: rgba(1, 150, 78, 0.15);
     border-radius: 8px;
     background-color: rgba(107, 235, 107, 0.185);
 }
@@ -23,12 +23,44 @@ fieldset {
 form {
     margin: 0px auto;
     padding: 20px;
-    max-width: 600px;
+    max-width: 570px;
+    font-weight: 700;
 }
+
+.copy-paste-api-lengend {
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    max-width: 570px;
+}
+
+.api-link {
+    margin: 0px auto;
+    padding: 20px;
+    max-width: 570px; 
+
+}
+
+.copy-paste-api {
+    max-width: 570px;
+    
+}
+
+.api-link-title {
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: rgb(0, 21, 255);
+    font-family: "Arial";
+    font-weight: 700;
+    background-color: white;
+    padding: 10px;
+}
+
 
 label {
     margin-right: 10px;
-    
+    font-weight: 700;
 }
 
 input[type='text'] {
