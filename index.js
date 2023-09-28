@@ -57,6 +57,14 @@ app.get('/api/shorturl/:shorturl', async function(req, res){
     res.redirect(urlDoc.url)
 })
 
+app.get('/api/getALL', async function(req, res) {
+    const urlDoc = await urls.find({}).toArray()
+
+    console.log(urlDoc)
+
+    res.json(urlDoc)
+})
+
 app.listen(port, function(){
     console.log(`Listening on port ${port}`);
 })
