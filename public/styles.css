@@ -10,6 +10,7 @@ main {
     margin-top: 40px;
 }
 
+
 h1 {
     color: rgba(4, 16, 240, 0.717);
 }
@@ -38,13 +39,22 @@ form {
 .api-link {
     margin: 0px auto;
     padding: 20px;
-    max-width: 570px; 
-
+    max-width: 570px;
 }
+
 
 .copy-paste-api {
     max-width: 570px;
     
+}
+
+.api-all-documents {
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    max-width: 570px;
+   
 }
 
 .api-link-title {
@@ -57,6 +67,20 @@ form {
     padding: 10px;
 }
 
+.all-api-link-title {
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: rgb(0, 21, 255); ;
+    font-family: "Arial";
+    font-weight: 700;
+    background-color: white;
+    padding: 10px;
+
+}
+
+/* .all-api-link-title-paragraph {
+   
+} */
 
 label {
     margin-right: 10px;
@@ -73,4 +97,9 @@ input[type="submit"] {
     color: black;
     font: "Arial";
     border: 1px solid black;
+}
+
+.code {
+    background-color: white;
+    padding: 10px;
 }
