@@ -30,6 +30,8 @@ app.get('/api/hello', function(req, res){
 })
 
 app.post('/api/shorturl', function(req, res){
+
+    
     
     const url = req.body.url
     console.log(req.body)
